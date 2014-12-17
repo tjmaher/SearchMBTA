@@ -12,9 +12,9 @@ Quick Start Guide: http://realtime.mbta.com/Portal/Content/Documents/MBTA-realti
 Modules:
 -------
 
-get_MBTA_routes: retrieves all the routes the MBTA has operating. 
+get_MBTA_routes.py: retrieves all the routes the MBTA has operating. 
 
-MBTA_230_bus_locations: retrieves locations of the 230 bus that runs from Quincy Center -- near T.J.'s apartment -- to the Montello Commuter Rail -- near his old neighborhood. 
+get_mbta_230_bus_location.py: retrieves locations of the 230 bus that runs from Quincy Center -- near T.J.'s apartment -- to the Montello Commuter Rail -- near his old neighborhood. 
 
 
 
