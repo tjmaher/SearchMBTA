@@ -1,7 +1,7 @@
 # get_MBTA_routes.py
 #
 #  This Python 2 program accesses real time data provided by the MBTA, accessible through 
-#  MBTA APIs. 
+#  their APIs. 
 #
 #  MBTA's free API key is wX9NwuHnZU2ToO7GmGR9uw, given in 2013. They suggest if you are developing an app, 
 #  that you apply for your own API Key.  
