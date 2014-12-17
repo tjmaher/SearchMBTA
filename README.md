@@ -13,7 +13,7 @@ Modules:
 -------
 get_mbta_230_bus_location.py: retrieves locations of the 230 bus that runs from Quincy Center -- near T.J.'s apartment -- to the Montello Commuter Rail -- near his old neighborhood.
 
-The API retrieves:
+The VehiclesByRoute query on the API retrieves:
 
 Direction:
 * direction_name: Whether the bus is Inbound or Outbound
