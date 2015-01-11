@@ -35,11 +35,11 @@
 # &<parameter>=<required/optional parameters>
 
 import urllib
-u = urllib.urlopen('http://realtime.mbta.com/developer/api/v2/vehiclesbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&route=230&format=xml')
+u = urllib.urlopen('http://realtime.mbta.com/developer/api/v2/vehiclesbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&route=230&format=json')
 
 data = u.read() # Get the XML Data retrieved and store it in the variable called 'data'.
-f = open('MBTA_230_bus_locations.xml', 'wb') # Open up a new file called "MBTA_230_bus_locations.xml", and set it to be a writable binary file. 
+f = open('MBTA_230_buses.js', 'wb') # Open up a new file called "MBTA_230_bus_locations.xml", and set it to be a writable binary file. 
 f.write(data)  # Write everything that was retrieved from the xml query and place it in the MBTA_230_bus_locations.xml file. 
 f.close()      # Close the file that was created. 
-print('Wrote MBTA_230_bus_locations.xml') # Output a message, if this program was run by the command line interface. 
+print('Wrote MBTA_230_buses.js') # Output a message, if this program was run by the command line interface. 
 
